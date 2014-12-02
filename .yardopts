@@ -1,0 +1,3 @@
+--markup markdown
+--title "SES Target Manager Documentation"
+lib/**/*.rb
