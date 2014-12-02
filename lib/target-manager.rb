@@ -248,7 +248,7 @@ class Window_BattleTarget < Window_Selectable
   
   # Sets up the window for a given skill or item.
   # 
-  # @param [Game_Action] the action containing the skill or item
+  # @param action [Game_Action] the action containing the skill or item
   def setup(action)
     @targets.clear
     unless action.item.target_filters.empty?
